@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <>
            <UsersContainer>
-                <UsersWrapper>
+                <UsersWrapper id="users">
                     <UsersH1>Our cheerful users</UsersH1>
                     <UsersP>Attention! Sorting users by registration date</UsersP>
 
@@ -109,7 +109,7 @@ const Header = () => {
                     </UsersContent>
                     
                     <UsersBtnWrap>
-                        <Button to="/" >Sign up now</Button>
+                        <Button to="signup" >Sign up now</Button>
                     </UsersBtnWrap>
 
                 </UsersWrapper>   

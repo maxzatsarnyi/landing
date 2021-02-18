@@ -17,7 +17,7 @@ const Header = () => {
                             <InfoP>If 3rd party css/javascript libraries are added to the project via bower/npm/yarn you will get bonus points. If you use any task runner (gulp/webpack) you will get bonus points as well. Slice service directory page P​SD mockup​ into HTML5/CSS3.</InfoP>
 
                             <InfoBtnWrap>
-                                <InfoBtn to="/">Sing up now</InfoBtn>
+                                <InfoBtn to="signup">Sing up now</InfoBtn>
                             </InfoBtnWrap>
                         </InfoContent>
                     </InfoWrap>

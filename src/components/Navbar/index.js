@@ -6,7 +6,7 @@ const Navbar = ({toggle}) => {
         <>
             <Nav>
                 <NavbarContainer>
-                    <LogoWrap>
+                    <LogoWrap to="about me">
                         <Logo src={require('../../images/logo.svg').default}/>
                     </LogoWrap>
 
@@ -15,11 +15,11 @@ const Navbar = ({toggle}) => {
                     </BurgerWrap>
 
                     <NavMenu>
-                        <NavItem><LinkS to="#">About me</LinkS></NavItem>
+                        <NavItem><LinkS to="about me">About me</LinkS></NavItem>
                         <NavItem><LinkS to="#">Relationships</LinkS></NavItem>
                         <NavItem><LinkS to="#">Requirements</LinkS></NavItem>
-                        <NavItem><LinkS to="#">Users</LinkS></NavItem>
-                        <NavItem><LinkS to="#">Sign Up</LinkS></NavItem>
+                        <NavItem><LinkS to="users">Users</LinkS></NavItem>
+                        <NavItem><LinkS to="signup">Sign Up</LinkS></NavItem>
                     </NavMenu>
                 </NavbarContainer>
             </Nav>

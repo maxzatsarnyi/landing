@@ -25,8 +25,9 @@ export const NavbarContainer = styled.div`
     }
 
 `
-export const LogoWrap = styled.div`
+export const LogoWrap = styled(Link)`
     padding-left: 20px;
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;

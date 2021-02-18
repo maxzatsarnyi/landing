@@ -6,15 +6,15 @@ const Sidebar = ({isOpen, toggle}) => {
         <>
            <SidebarContainer isOpen={isOpen}>
                 <SidebarWrapper>
-                    <LogoWrap><LogoIcon src={require("../../images/logo.svg").default} /></LogoWrap>
+                    <LogoWrap to="about me"><LogoIcon src={require("../../images/logo.svg").default} /></LogoWrap>
                 </SidebarWrapper>
                 
                 <SectionsContainer>
                     <SidebarSection>
-                        <SidebarLink to="/" onClick={toggle} >About me</SidebarLink>
+                        <SidebarLink to="about me" onClick={toggle} >About me</SidebarLink>
                         <SidebarLink to="/" onClick={toggle} >Relationships</SidebarLink>
-                        <SidebarLink to="/" onClick={toggle} >Users</SidebarLink>
-                        <SidebarLink to="/" onClick={toggle} >Sign Up</SidebarLink>
+                        <SidebarLink to="users" onClick={toggle} >Users</SidebarLink>
+                        <SidebarLink to="signup" onClick={toggle} >Sign Up</SidebarLink>
                         <SidebarLink to="/" onClick={toggle} >Terms and Conditions</SidebarLink>
                     </SidebarSection>
                     <SidebarSection>

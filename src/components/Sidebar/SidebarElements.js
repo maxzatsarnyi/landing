@@ -27,7 +27,7 @@ export const SidebarWrapper = styled.div`
 `
 
 
-export const LogoWrap = styled.div`
+export const LogoWrap = styled(Link)`
     height: 40px;
     display: flex;
     align-items: center;

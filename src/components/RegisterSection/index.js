@@ -9,7 +9,7 @@ const Header = () => {
 
     return (
         <>
-           <RegisterContainer>
+           <RegisterContainer id="signup">
                 <RegisterWrapper>
                     <RegisterH1>Register to get a work</RegisterH1>
                     <RegisterH2>Attention! After successful registration and alert, update the list of users in the block from the top</RegisterH2>
